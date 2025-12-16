@@ -1,8 +1,11 @@
+import React from 'react'
+
 type Project = {
   name: string
   description: string
   link: string
-  video: string
+  video?: string
+  image?: string
   id: string
 }
 
@@ -29,49 +32,32 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Chat Bot Mini',
     description:
-      'Advanced components and templates to craft beautiful websites.',
+      'A simple chat bot application.',
     link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+    image: '/images/chatbot-ai.jpg',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
+    name: 'AI Agent',
+    description: 'An intelligent AI agent system.',
     link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    image: '/images/ai_agent_update.jpg',
     id: 'project2',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
+    company: 'Công ty cổ phần DEHA Việt Nam',
+    title: 'Intern Prompt AI',
+    start: '12/2025',
+    end: '2/2026',
     link: 'https://ibelick.com',
     id: 'work1',
   },
-  {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
-  },
+
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -97,7 +83,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
+    description:
+      'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
     link: '/blog/example-mdx-metadata',
     uid: 'blog-4',
   },
@@ -122,4 +109,22 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'tuanahoang030503@gmail.com'
+
+export const HARD_SKILLS = [
+  'Wordpress',
+  'Python',
+  'Linux',
+  'Prompt AI',
+  'Seo',
+  'Ads',
+]
+
+export const SOFT_SKILLS = [
+  'Communication',
+  'Teamwork',
+  'Adaptability',
+  'Careful',
+  'Time Management',
+]
+
