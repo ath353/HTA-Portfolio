@@ -1,5 +1,3 @@
-import React from 'react'
-
 type Project = {
   name: string
   description: string
@@ -33,8 +31,7 @@ type SocialLink = {
 export const PROJECTS: Project[] = [
   {
     name: 'Chat Bot Mini',
-    description:
-      'A simple chat bot application.',
+    description: 'A simple chat bot application.',
     link: 'https://pro.motion-primitives.com/',
     image: '/images/chatbot-ai.jpg',
     id: 'project1',
@@ -57,7 +54,6 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     link: 'https://ibelick.com',
     id: 'work1',
   },
-
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -127,4 +123,3 @@ export const SOFT_SKILLS = [
   'Careful',
   'Time Management',
 ]
-

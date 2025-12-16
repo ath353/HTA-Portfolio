@@ -3,7 +3,7 @@ import { motion } from 'motion/react'
 import { Spotlight } from '@/components/ui/spotlight'
 import { InfiniteMarquee } from '@/components/ui/infinite-marquee'
 
-import { WORK_EXPERIENCE, EMAIL, HARD_SKILLS, SOFT_SKILLS } from './data'
+import { WORK_EXPERIENCE, HARD_SKILLS, SOFT_SKILLS } from './data'
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -41,10 +41,14 @@ export default function Personal() {
             • Xin chào, đây là trang web cá nhân của tôi.
           </p>
           <p className="mb-2 text-zinc-600 dark:text-zinc-400">
-            • Là 1 sinh viên CNTT, với đam mê xây dựng cầu nối giữa Công nghệ và Marketing, tôi tập trung vào 3 trụ cột chính: Khai thác sức mạnh của các mô hình ngôn ngữ lớn (LLMs), tối ưu hiển thị với SEO, chuyển đổi với Ads.
+            • Là 1 sinh viên CNTT, với đam mê xây dựng cầu nối giữa Công nghệ và
+            Marketing, tôi tập trung vào 3 trụ cột chính: Khai thác sức mạnh của
+            các mô hình ngôn ngữ lớn (LLMs), tối ưu hiển thị với SEO, chuyển đổi
+            với Ads.
           </p>
           <p className="text-zinc-600 dark:text-zinc-400">
-            • Mục tiêu của tôi là biến dữ liệu và công nghệ thành lợi thế cạnh tranh.
+            • Mục tiêu của tôi là biến dữ liệu và công nghệ thành lợi thế cạnh
+            tranh.
           </p>
         </div>
       </motion.section>
@@ -57,7 +61,9 @@ export default function Personal() {
           SKILLS
         </h3>
         <div className="mb-6">
-          <h4 className="mb-3 text-base font-medium text-zinc-900 dark:text-zinc-100">Hard Skills</h4>
+          <h4 className="mb-3 text-base font-medium text-zinc-900 dark:text-zinc-100">
+            Hard Skills
+          </h4>
           <InfiniteMarquee speed={30} direction="right" className="py-2">
             {HARD_SKILLS.map((skill) => (
               <span
@@ -71,7 +77,9 @@ export default function Personal() {
         </div>
 
         <div>
-          <h4 className="mb-3 text-base font-medium text-zinc-900 dark:text-zinc-100">Soft Skills</h4>
+          <h4 className="mb-3 text-base font-medium text-zinc-900 dark:text-zinc-100">
+            Soft Skills
+          </h4>
           <InfiniteMarquee speed={30} className="py-2">
             {SOFT_SKILLS.map((skill) => (
               <span
@@ -135,7 +143,7 @@ export default function Personal() {
         <div className="flex flex-wrap gap-2">
           <a
             className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-black hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
-            href="#" 
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >

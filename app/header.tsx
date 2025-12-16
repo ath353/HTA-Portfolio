@@ -9,7 +9,7 @@ export function Header() {
         <img
           src="/images/avatar_new.jpg"
           alt="Avatar"
-          className="w-[130px] h-[130px] rounded-full object-cover"
+          className="h-[130px] w-[130px] rounded-full object-cover"
         />
         <div>
           <Link href="/" className="font-medium text-black dark:text-white">
@@ -27,14 +27,23 @@ export function Header() {
         </div>
       </div>
       <nav className="flex space-x-4">
-        <Link href="/" className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white">
+        <Link
+          href="/"
+          className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white"
+        >
           Home
         </Link>
 
-        <Link href="/projects" className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white">
+        <Link
+          href="/projects"
+          className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white"
+        >
           Projects
         </Link>
-        <Link href="/contact" className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white">
+        <Link
+          href="/contact"
+          className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white"
+        >
           Contact
         </Link>
       </nav>

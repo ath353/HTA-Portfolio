@@ -40,7 +40,6 @@ export default function About() {
         <p className="mb-6 text-zinc-600 dark:text-zinc-400">
           • Sở thích của tôi là thể thao và đọc sách.
         </p>
-
       </motion.section>
     </motion.main>
   )

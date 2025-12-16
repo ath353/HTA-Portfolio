@@ -53,7 +53,7 @@ function ProjectMedia({ src, type }: ProjectMediaProps) {
             className="aspect-video w-full cursor-zoom-in rounded-xl object-cover"
           />
         ) : (
-           <img
+          <img
             src={src}
             alt="Project preview"
             className="aspect-video w-full cursor-zoom-in rounded-xl object-cover"
@@ -68,14 +68,14 @@ function ProjectMedia({ src, type }: ProjectMediaProps) {
               autoPlay
               loop
               muted
-              className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh] object-cover"
+              className="aspect-video h-[50vh] w-full rounded-xl object-cover md:h-[70vh]"
             />
           ) : (
             <img
-            src={src}
-            alt="Project preview"
-            className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh] object-cover"
-          />
+              src={src}
+              alt="Project preview"
+              className="aspect-video h-[50vh] w-full rounded-xl object-cover md:h-[70vh]"
+            />
           )}
         </MorphingDialogContent>
         <MorphingDialogClose
@@ -113,9 +113,9 @@ export default function Projects() {
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
               <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
-                <ProjectMedia 
-                  src={project.image || project.video || ''} 
-                  type={project.image ? 'image' : 'video'} 
+                <ProjectMedia
+                  src={project.image || project.video || ''}
+                  type={project.image ? 'image' : 'video'}
                 />
               </div>
               <div className="px-1">
