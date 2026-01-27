@@ -22,7 +22,7 @@ export function Header() {
             className="text-zinc-600 dark:text-zinc-500"
             delay={0.5}
           >
-            Tester
+            Thực tập sinh Web / Wordpress
           </TextEffect>
         </div>
       </div>
@@ -31,20 +31,20 @@ export function Header() {
           href="/"
           className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white"
         >
-          Home
+          HOME
         </Link>
 
         <Link
           href="/projects"
           className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white"
         >
-          Projects
+          PROJECTS
         </Link>
         <Link
           href="/contact"
           className="text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white"
         >
-          Contact
+          CONTACT
         </Link>
       </nav>
     </header>

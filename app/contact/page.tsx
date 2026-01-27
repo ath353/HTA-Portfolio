@@ -33,8 +33,11 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission, e.g., send to API
-    alert('Form submitted! (Placeholder)')
+    const { name, email, message } = formData
+    const subject = `Contact from ${name} (${email})`
+    const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    
+    window.location.href = `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
   }
 
   return (
@@ -48,7 +51,7 @@ export default function Contact() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h2 className="mb-4 text-2xl font-medium">Contact Me</h2>
+        <h2 className="mb-4 text-2xl font-medium">CONTACT ME</h2>
         <div className="mb-8 flex flex-wrap gap-2">
           <a
             className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-black hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
@@ -58,11 +61,22 @@ export default function Contact() {
           >
             Github
           </a>
-          <a
+          <button
             className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-black hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
-            href={`mailto:${EMAIL}`}
+            onClick={() => {
+              navigator.clipboard.writeText(EMAIL)
+              alert('Email copied to clipboard!')
+            }}
           >
             Email
+          </button>
+          <a
+            className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-black hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
+            href="https://www.instagram.com/htuananh_/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
           </a>
         </div>
         <form onSubmit={handleSubmit} className="space-y-4">

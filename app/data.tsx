@@ -28,10 +28,10 @@ type SocialLink = {
   link: string
 }
 
-export const PROJECTS: Project[] = [
+export const SOFTWARE_PROJECTS: Project[] = [
   {
-    name: 'Chat Bot Mini',
-    description: 'A simple chat bot application.',
+    name: 'Mini Chat Bot AI',
+    description: 'Đây là dự án nhỏ của tôi, một Chat Bot AI đơn giản.',
     link: 'https://pro.motion-primitives.com/',
     image: '/images/chatbot-ai.jpg',
     id: 'project1',
@@ -43,7 +43,16 @@ export const PROJECTS: Project[] = [
     image: '/images/ai_agent_update.jpg',
     id: 'project2',
   },
+  {
+    name: 'Laravel Project',
+    description: 'Một dự án Laravel đơn giản, áp dụng những kiến thức trong quá trình thực tập ở vị trí Prompt AI.',
+    link: '#',
+    image: '/images/prj_laravel.jpg',
+    id: 'project3',
+  },
 ]
+
+export const MARKETING_PROJECTS: Project[] = []
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
@@ -101,25 +110,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/htuananh_/',
   },
+
 ]
 
 export const EMAIL = 'tuanahoang030503@gmail.com'
 
-export const HARD_SKILLS = [
-  'Wordpress',
-  'Python',
-  'Linux',
-  'Prompt AI',
-  'Seo',
-  'Ads',
-]
 
-export const SOFT_SKILLS = [
-  'Communication',
-  'Teamwork',
-  'Adaptability',
-  'Careful',
-  'Time Management',
-]
