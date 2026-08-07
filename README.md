@@ -1,31 +1,22 @@
-# 🌐 Portfolio Cá Nhân
+# 1. Tên dự án ✅
 
-Nơi lưu trữ và giới thiệu các dự án cá nhân.
+**Portfolio Cá Nhân**
 
----
+# 2. Ứng dụng của dự án
 
-## 📁 Nội dung
+Nơi lưu trữ và giới thiệu các dự án cá nhân — tổng hợp các dự án đã làm.
 
-- 💼 Tổng hợp các dự án cá nhân
+# 4. Hướng dẫn sử dụng
 
-- 🔗 Link demo và mã nguồn từng project
+Truy cập trang portfolio để xem tổng hợp các dự án cá nhân
 
----
+# 5. Cách truy cập
 
-## 🔗 Portfolio: [ta353.vercel.app](https://ta353.vercel.app)
+- 🔗 Portfolio: [ta353.vercel.app](https://ta353.vercel.app/)
+- 🔗 Demo template: [nim-fawn.vercel.app](https://nim-fawn.vercel.app/)
 
-## 🔗 Demo template: [nim-fawn.vercel.app](https://nim-fawn.vercel.app)
+# 6. Tác giả
 
----
+ath353
 
-## 👨‍💻 Tác giả
-
-**[HTA]**
-
-- GitHub: [@ath353](https://github.com/ath353)
-
-- Portfolio: [ta353.vercel.app](https://ta353.vercel.app)
-
----
-
-> 🙏 Template lấy từ mã nguồn mở trên GitHub.
+🙏 Template lấy từ mã nguồn mở trên GitHub.
