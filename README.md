@@ -13,10 +13,10 @@ Truy cập trang portfolio để xem tổng hợp các dự án cá nhân
 # 5. Cách truy cập
 
 - 🔗 Portfolio: [ta353.vercel.app](https://ta353.vercel.app/)
-- 🔗 Demo template: [nim-fawn.vercel.app](https://nim-fawn.vercel.app/)
+- 🔗 🙏 Template lấy từ mã nguồn mở trên GitHub.
 
 # 6. Tác giả
 
 ath353
 
-🙏 Template lấy từ mã nguồn mở trên GitHub.
+
